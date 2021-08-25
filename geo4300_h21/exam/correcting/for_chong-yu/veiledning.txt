@@ -1,0 +1,51 @@
+Exam guidelines
+
+Question 1
+a) E_x=(-1*1/3) + (3*1/2) + (4*1/6)=1.83
+
+b) var_x=(1/3)*(-1-E_x)**2 + (1/2)*(3-E_x)**2 + (1/6)*(4-E_x)**2 = 4.14
+
+c) the mode is 3
+
+d) sqrt(var_x)/E_x= 1.1
+
+
+Question 2
+a) Risk formula:
+1 - (1-(1/T))^n=0.096
+
+
+b) The assumptions of a simple linear regression are linearity, normality, homoscedasticity, and independence. Homoscedasticity appears to be violated, because the scatter around the regression line increases with increasing average runoff. A log-transformation (or a similar transformation) could improve this analysis.
+
+
+Question 3
+a)
+i) use t-distribution with n-1 degrees of freedom and alpha=0.05
+L=mean - (t *std_mean)=143.3
+U=mean + (t *std_mean)=146.7
+
+ii) use normal distribution with alpha=0.05
+L=mean - (z *std_mean)=143.4
+U=mean - (z *std_mean)=146.6
+
+b) The t-distribution has heavier tails than the normal distribution, and is better suited to estimate the confidence interval if the true variance is unknown
+
+c) use the Chi-squared distribution with n-1 degrees of freedom and alpha=0.05
+L = ((n-1)*(var))/chi2_(1-alpha/2)=12.7
+U = ((n-1)*(var))/chi2_(alpha/2)=36.1
+
+
+Question 4
+a) We need to check how well the model generalizes to data it wasn't trained on, to prevent possible overfitting. This would be indicated by a much smaller training error than test error. Underfitting would lead to relatively large training and test error. Ideally, a model is at the "sweet spot" between over- and underfitting.
+
+b) To prevent overfitting, adhere to parsimony and thereby reduce the test error.
+
+
+Question 5
+a) The problem here is the strong periodic component of the time series.
+The runs test would detect any deterministic features in the time series, so it would detect the periodicity here, and thus cannot be used for trend testing, unless the periodicity is modeled and removed first.
+A linear regression in combination with a t-test on the slope would also struggle with the periodicity due to the finite length of the given dataset. The dataset ends at a different position in its periodic oscillation, so the results of this test would depend on where in the periodic cycle our time series ends. Again, one could model the periodic component and apply this test for a given number of full cycles, for example.
+The Mann-Kendall test would be most suitable here, but would also benefit from a pre-processing step to take care of the periodicity.
+
+b)
+Figure A shows the correct Fourier transform, with a peak at 0.2 Hz and some noise at the other frequencies.

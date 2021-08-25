@@ -1,0 +1,50 @@
+id;date;type;snow_depth_cm;snow_density;east_utm32n;north_32n;comment;intrument
+1;20140331;pit;307;421.88;419946.2;6716768.7;Thomas station;tube_20cm
+2;20140401;pit;107;416.67;;;Erika station;tube_20cm
+3;20111201;pit;34.5;371;419946.2;6716768.7;Thomas station (excat date to be checked);tube_20cm
+4;20111201;pit;34;382;419946.2;6716768.7;Thomas station  (excat date to be checked);tube_20cm
+5;20111201;pit;11.5;348;420413.2;6716578.6;Bernd station  (excat date to be checked);tube_20cm
+6;20111201;pit;56;257;;;Erika station  (excat date to be checked);tube_20cm
+7;20111201;pit;59;264;;;Erika station  (excat date to be checked);tube_20cm
+8;20120101;pit;137;391;;;Erika station  (excat date to be checked);tube_20cm
+9;20120101;pit;140;390;;;Erika station  (excat date to be checked);tube_20cm
+10;20120201;pit;227;472;419946.2;6716768.7;Thomas station  (excat date to be checked);tube_20cm
+11;20120301;pit;200;475;;;Reasearch station  (excat date to be checked);tube_20cm
+12;20120301;pit;167;384;;;Reasearch station  (excat date to be checked);tube_20cm
+13;20121201;pit;85;365;419946.2;6716768.7;Thomas station;tube_20cm
+14;20121201;pit;108;362;419946.2;6716768.7;Thomas station;tube_20cm
+15;20121201;pit;60;277;;;Erika station;tube_20cm
+16;20121201;pit;60;279;;;Erika station;tube_20cm
+17;20130101;pit;80;245;419946.2;6716768.7;Thomas station;tube_20cm
+18;20130101;pit;80;198;419946.2;6716768.7;Thomas station;tube_20cm
+19;20130101;pit;90.5;256;;;Erika station;tube_20cm
+20;20130101;pit;100;238;;;Erika station;tube_20cm
+21;20130201;pit;97;365;419946.2;6716768.7;Thomas station;tube_20cm
+22;20130201;pit;99;358;419946.2;6716768.7;Thomas station;tube_20cm
+23;20130201;pit;97;328;;;Erika station;tube_20cm
+24;20130201;pit;99;287;;;Erika station;tube_20cm
+25;20130301;pit;120;338;419946.2;6716768.7;Thomas station;tube_20cm
+26;20170509;pit;104;421;419992;6716882.2;;cutter_100c3m
+27;20170509;pit;107;401;419992;6716882.2;;cutter_100c3m
+28;20170509;pit;100;418;419992;6716882.2;;cutter_100c3m
+29;20170509;pit;124;490;419982;6716511.7;;cutter_100c3m
+30;20170509;pit;105;447;419982;6716511.7;;cutter_100c3m
+31;20170509;pit;109;482;419982;6716511.7;;cutter_100c3m
+32;20170509;pit;261;485;419984;6716493;;cutter_100c3m
+33;20160401;pit;220;433;420413.2;6716578.6;Bernd station;tube_20cm
+34;20160219;pit;235;375.5;419144;6718305;;tube_20cm
+35;20160218;pit;104;305.5;420413.2;6716578.6;Bernd station;tube_20cm
+36;20160218;pit;178;414.67;419946.2;6716768.7;Thomas station;tube_20cm
+37;20160217;pit;200;380.6;419382;6718539;;tube_20cm
+38;20160511;pit;102;452;419439.4;6718569.5;;tube_20cm
+39;20160511;pit;150;428.7;419946.2;6716768.7;Thomas station;tube_20cm
+40;20160511;pit;127;447.1;420413.2;6716578.6;Bernd station;tube_20cm
+41;20170322;pit;305;391.8;419915;6716787.5;Thomas station;cutter_100c3m
+42;20170205;pit;64;266.7;;;Marshland;cutter_100c3m
+43;20170504;pit;179;486.8;;;;cutter_100c3m
+44;20170322;pit;38;355.3;419915;6716787.5;Thomas station;cutter_100c3m
+45;20170321;pit;150;375.1;;;Finse Research station;cutter_100c3m
+46;20170321;pit;100;361;;;Finse Research station;cutter_100c3m
+47;20170321;pit;144;391.2;;;Finse Research station;cutter_100c3m
+48;20170209;pit;145;408.2;419915;6716787.5;Thomas station;cutter_100c3m
+49;20161216;pit;38;355.3;;;Finse Research station;cutter_100c3m

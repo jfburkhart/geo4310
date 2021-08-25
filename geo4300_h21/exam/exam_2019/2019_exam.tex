@@ -1,0 +1,154 @@
+\documentclass[12pt]{article}
+
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+%% packages
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[a4paper,margin=2cm]{geometry}
+% \usepackage[english, norsk]{babel}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage{lastpage}
+% \usepackage[demo]{graphicx}
+\usepackage{graphicx}
+\graphicspath{ {.} }
+
+
+\date{}
+\begin{document}
+
+% intentionally empty
+\author{Faculty of Mathematics and Natural Sciences}
+
+\title{UNIVERSITY OF OSLO}
+
+\maketitle 
+\begin{center}
+\textbf{Exam in GEO4300 -- Geophysical Data Science}
+\end{center}
+
+
+Day of exam: 5 December, 2019 \\
+Exam hours: 09:00 -- 12:00 (3 hours) \\ 
+
+This examination paper consists of \pageref{LastPage} pages including this page and appendices. \\
+
+Permitted materials: calculator\\ 
+
+Note: \\
+1. This examination paper has to be returned together with your answers/solutions.\\
+2. This exam is a closed book exam. Only a calculator is permitted.\\ 
+3. Make sure that your copy of this examination paper is complete before answering.\\ 
+4. There are in total 50 points in this exam.\\
+
+
+\pagebreak
+
+
+%\pagebreak
+\section{Random variables}
+
+\begin{enumerate}[(a)] 
+\item Explain or define the mean, median and mode of a random variable. \textbf{\hfill (3 points)}
+\item Explain or define a measure of dispersion of a random variable. \textbf{\hfill (2 points)}
+\item For bivariate random variables, explain how the Pearson correlation coefficient and the Spearman rank correlation coefficients are calculated and explain the differences between them. You may draw a simple sketch to illustrate the differences. \textbf{\hfill (5 points)}
+\end{enumerate}
+
+
+
+
+\section{Hypothesis testing}
+Based on two samples with respectively 1000 and 100 observations, the following estimates for mean and standard deviations have been obtained:
+
+Sample 1 ($n_1=1000$): \hspace{0.3in} $\bar{x}_1=44.1$ \hspace{0.3in} $\sigma_1=11.3$
+
+Sample 2 ($n_2=100$): \hspace{0.3in} $\bar{x}_2=48.0$ \hspace{0.3in} $\sigma_2=8.2$
+
+
+\begin{enumerate}[(a)] 
+    \item Test if the estimates for mean and standard deviation are significantly different. Use a significance level of 5\%. \textbf{\hfill (5 points)}
+	\item We make two types of errors in hypothesis testing. Explain these type I and type II errors, and illustrate graphically the relation between them. \textbf{\hfill (5 points)}
+\end{enumerate}
+
+
+
+%\pagebreak
+\section{Goodness-of-fit testing}
+The table below shows July precipitation data ($P$ in inches) for $N=30$ years of observations between 1951 and 1980 in Ithaca, New York.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\textwidth]{table48} 
+%    \caption{}
+\end{figure}
+
+The mean value of the data is $\bar{P}=3.54$ inches and the standard deviation $s=1.77$ inches.
+
+\begin{enumerate}[(a)] 
+\item Bin the data in suitable classes and sketch the cumulative histogram of the dataset. \\ \textbf{\hfill (5 points)}
+\item Use the Chi-square method to test the hypothesis that the data fit the normal distribution. Use a significance level of 5\%. \textbf{\hfill (5 points)}
+\end{enumerate}
+
+
+
+\pagebreak
+\section{Time series analysis}
+Consider the following time series $X_t$ sampled at $n=70$ time steps:
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\textwidth]{autocorrelation_y} 
+%    \caption{}
+\end{figure}
+
+
+\begin{enumerate}[(a)]
+\item The following three graphs show autocorrelation functions for lags $L \le 50$, defined as:
+$$ r_L = \frac{1}{n-L} \sum_{t=1}^{n-L} (X_t-\bar{X}) (X_{t+L} - \bar{X}) / \frac{1}{n} \sum_{t=1}^n (X_t-\bar{X})^2$$
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\textwidth]{autocorrelation_rl} 
+%    \caption{}
+\end{figure}
+Which one of them (A, B or C) shows the autocorrelation of $X_t$? Explain your answer. \\ \textbf{\hfill (5 points)}
+
+\item How could you test for a trend in $X_t$? Explain a suitable test. \textbf{\hfill (5 points)}
+\end{enumerate}
+
+
+
+\pagebreak
+\section{Machine learning}
+\begin{enumerate}[(a)] 
+\item What is the difference between supervised and unsupervised machine learning? Give an example of one model/learning algorithm and argue why you can categorize it as supervised (or unsupervised). \textbf{\hfill (5 points)}
+\item Explain the difference between the two main types of supervised machine learning: regression and classification. Give an example of each type. \textbf{\hfill (5~points)}
+\end{enumerate}
+
+
+%\pagebreak
+\section{Appendix: Formulary}
+
+\includepdf[pages={1-12}]{formulary-2017_final.pdf}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
